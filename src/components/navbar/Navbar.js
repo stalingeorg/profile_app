@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {BiSearch} from 'react-icons/bi'
 import {BsPerson} from 'react-icons/bs'
 import {BsBorderWidth} from 'react-icons/bs'
+import { Button } from 'react-bootstrap'
 
 import './NavbarStyles.css'
 
@@ -18,6 +19,7 @@ function Navbar() {
             <li>About us</li>
             <li>Resources</li>
             <li>Contact</li>
+            <Button variant="primary">Primary</Button>{' '}
         </ul>
 <div className='nav-icons'>
     <BiSearch className="icon"></BiSearch>
