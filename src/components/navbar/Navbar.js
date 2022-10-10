@@ -23,7 +23,7 @@ function Navbar() {
     <BiSearch className="icon"></BiSearch>
     <BsPerson className="icon"></BsPerson>
 </div>
-<div className='hamburger'>
+<div className='hamburger' onClick={handleNav}>
     <BsBorderWidth className="icon"></BsBorderWidth>
 </div>
 <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
