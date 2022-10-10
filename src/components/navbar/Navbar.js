@@ -19,7 +19,7 @@ function Navbar() {
             <li>About us</li>
             <li>Resources</li>
             <li>Contact</li>
-            <Button variant="primary">Primary</Button>{' '}
+            <li><Button variant="primary">Primary</Button>{' '}</li>
         </ul>
 <div className='nav-icons'>
     <BiSearch className="icon"></BiSearch>
